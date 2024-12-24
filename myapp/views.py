@@ -1,5 +1,4 @@
 
-
 # Create your views here.
 from django.shortcuts import render
 
@@ -9,7 +8,7 @@ def home(request):
     return render(request,'home.html')
 
 def courses(request):
-    return render(request,'courses.html')
+    return render(request,'courses.html')6
 def bootcamp(request):
     return render(request,'bootcamp.html')
 
