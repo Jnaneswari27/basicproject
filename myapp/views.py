@@ -8,7 +8,7 @@ def home(request):
     return render(request,'home.html')
 
 def courses(request):
-    return render(request,'courses.html')6
+    return render(request,'courses.html')
 def bootcamp(request):
     return render(request,'bootcamp.html')
 
